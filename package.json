@@ -8,8 +8,8 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "export": "next export",
+    "deploy": "npm run build && npm run export && git add . && git commit -m 'deploy' && git push origin gh-pages"
   },
   "dependencies": {
     "next": "15.0.3",
