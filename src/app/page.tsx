@@ -1,5 +1,4 @@
 import Banner from "@/components/Banner";
-import HorizontalScroller from "@/components/HorizontalScroller";
 import SiteHeader from "@/components/SiteHeader";
 
 
@@ -19,7 +18,6 @@ export default function Home() {
     <div className='w-full h-full'>
       <SiteHeader />
       <Banner imageList={imageList} />
-      <HorizontalScroller imageList={[...imageList, ...imageList, ...imageList]}/>
     </div>
   );
 }

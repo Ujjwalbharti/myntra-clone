@@ -49,7 +49,7 @@ const Banner: React.FC<BannerProps> = ({ imageList }) => {
         return (
             <div
                 key={index} onClick={() => handleCircleClick(index)}
-                className={`rounded-full w-4 h-4 bg-white m-1 ${activeBanner == index ? "bg-gray-500" : "bg-white"} cursor-pointer`}>
+                className={`rounded-full w-4 h-4 m-1 ${activeBanner == index ? "bg-gray-500" : "bg-white"} cursor-pointer`}>
             </div>
         );
     }
