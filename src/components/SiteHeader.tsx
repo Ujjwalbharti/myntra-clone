@@ -12,31 +12,31 @@ const SiteHeader = () => {
                         <Image src={"/myntra-icon.svg"} width={53} height={36} alt='icon' />
                     </div>
                     <div className='flex items-center justify-center mr-4 uppercase gap-12 ml-4'>
-                        <div className='flex items-center h-full relative group hover:border-b-4 hover:border-black hover:cursor-pointer'>
+                        <div className='flex items-center h-full relative group border-b-4 border-white hover:border-black hover:cursor-pointer'>
                             <span className='block'>Men</span>
                             <div className='hidden fixed h-[55%] w-[70%] left-[117px] top-[80px] z-30 bg-white group-hover:block'>
                                 Men
                             </div>
                         </div>
-                        <div className='flex items-center h-full relative group hover:border-b-4 hover:border-black hover:cursor-pointer'>
+                        <div className='flex items-center h-full relative group border-b-4 border-white hover:border-black hover:cursor-pointer'>
                             <span className='block'>Women</span>
                             <div className='hidden fixed h-[55%] w-[70%] left-[117px] top-[80px] z-30 bg-white group-hover:block'>
                                 Women
                             </div>
                         </div>
-                        <div className='flex items-center h-full relative group hover:border-b-4 hover:border-black hover:cursor-pointer'>
+                        <div className='flex items-center h-full relative group border-b-4 border-white hover:border-black hover:cursor-pointer'>
                             <span className='block'>Kids</span>
                             <div className='hidden fixed h-[55%] w-[70%] left-[117px] top-[80px] z-30 bg-white group-hover:block'>
                                 Kids
                             </div>
                         </div>
-                        <div className='flex items-center h-full relative group hover:border-b-4 hover:border-black hover:cursor-pointer'>
+                        <div className='flex items-center h-full relative group border-b-4 border-white hover:border-black hover:cursor-pointer'>
                             <span className='block'>Home & Living</span>
                             <div className='hidden fixed h-[55%] w-[70%] left-[117px] top-[80px] z-30 bg-white group-hover:block'>
                                 Home & Living
                             </div>
                         </div>
-                        <div className='flex items-center h-full relative group hover:border-b-4 hover:border-black hover:cursor-pointer'>
+                        <div className='flex items-center h-full relative group border-b-4 border-white hover:border-black hover:cursor-pointer'>
                             <span className='block'>Beauty</span>
                             <div className='hidden fixed h-[55%] w-[60%] left-[117px] top-[80px] z-30 bg-white group-hover:block'>
                                 Beauty
