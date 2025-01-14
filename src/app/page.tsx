@@ -15,7 +15,7 @@ const imageList = [
 
 export default function Home() {
   return (
-    <div className='w-full h-full'>
+    <div className='w-full h-screen bg-gray-50'>
       <SiteHeader />
       <Banner imageList={imageList} />
     </div>

@@ -14,31 +14,31 @@ const SiteHeader = () => {
                     <div className='flex items-center justify-center mr-4 uppercase gap-12 ml-4'>
                         <div className='flex items-center h-full relative group border-b-4 border-white hover:border-black hover:cursor-pointer'>
                             <span className='block'>Men</span>
-                            <div className='hidden fixed h-[55%] w-[70%] left-[117px] top-[80px] z-30 bg-white group-hover:block'>
+                            <div className='opacity-0 fixed h-[55%] w-[70%] left-[117px] top-[78px] z-30 bg-white group-hover:opacity-100 transition-all duration-500 ease-in-out'>
                                 Men
                             </div>
                         </div>
                         <div className='flex items-center h-full relative group border-b-4 border-white hover:border-black hover:cursor-pointer'>
                             <span className='block'>Women</span>
-                            <div className='hidden fixed h-[55%] w-[70%] left-[117px] top-[80px] z-30 bg-white group-hover:block'>
+                            <div className='opacity-0 fixed h-[55%] w-[70%] left-[117px] top-[78px] z-30 bg-white group-hover:opacity-100 transition-all duration-500 ease-in-out'>
                                 Women
                             </div>
                         </div>
                         <div className='flex items-center h-full relative group border-b-4 border-white hover:border-black hover:cursor-pointer'>
                             <span className='block'>Kids</span>
-                            <div className='hidden fixed h-[55%] w-[70%] left-[117px] top-[80px] z-30 bg-white group-hover:block'>
+                            <div className='opacity-0 fixed h-[55%] w-[70%] left-[117px] top-[78px] z-30 bg-white group-hover:opacity-100 transition-all duration-500 ease-in-out'>
                                 Kids
                             </div>
                         </div>
                         <div className='flex items-center h-full relative group border-b-4 border-white hover:border-black hover:cursor-pointer'>
                             <span className='block'>Home & Living</span>
-                            <div className='hidden fixed h-[55%] w-[70%] left-[117px] top-[80px] z-30 bg-white group-hover:block'>
+                            <div className='opacity-0 fixed h-[55%] w-[70%] left-[117px] top-[78px] z-30 bg-white group-hover:opacity-100 transition-all duration-500 ease-in-out'>
                                 Home & Living
                             </div>
                         </div>
                         <div className='flex items-center h-full relative group border-b-4 border-white hover:border-black hover:cursor-pointer'>
                             <span className='block'>Beauty</span>
-                            <div className='hidden fixed h-[55%] w-[60%] left-[117px] top-[80px] z-30 bg-white group-hover:block'>
+                            <div className='opacity-0 fixed h-[55%] w-[70%] left-[117px] top-[78px] z-30 bg-white group-hover:opacity-100 transition-all duration-500 ease-in-out'>
                                 Beauty
                             </div>
                         </div>
