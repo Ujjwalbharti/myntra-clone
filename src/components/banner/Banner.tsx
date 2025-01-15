@@ -1,6 +1,7 @@
 'use client';
 
 import Image from 'next/image';
+import React from 'react';
 import { useEffect, useRef, useState } from 'react';
 
 interface BannerProps {
@@ -23,25 +24,25 @@ const Banner: React.FC<BannerProps> = ({ imageList }) => {
       );
    }
 
-   useEffect(() => {
-      startInterval();
-
-      return () => stopInterval();
-   }, [imageList.length]);
-
-   function startInterval() {
-      stopInterval();
-      intervalRef.current = setInterval(() => {
-         setActiveBanner((current) => (current + 1) % imageList.length);
-      }, 3000);
-   }
-
-   function stopInterval() {
+   const stopInterval = React.useCallback(() => {
       if (intervalRef.current) {
          clearInterval(intervalRef.current);
          intervalRef.current = null;
       }
-   }
+   }, []);
+
+   const startInterval = React.useCallback(() => {
+      stopInterval();
+      intervalRef.current = setInterval(() => {
+         setActiveBanner((current) => (current + 1) % imageList.length);
+      }, 3000);
+   }, [imageList.length, stopInterval, setActiveBanner]);
+
+   useEffect(() => {
+      startInterval();
+
+      return () => stopInterval();
+   }, [imageList.length, startInterval, stopInterval]);
 
    function handleCircleClick(index: number) {
       stopInterval();
