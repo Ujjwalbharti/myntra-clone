@@ -6,7 +6,7 @@ import NavIcon from './NavIcon';
 const SiteHeader = () => {
    return (
       <>
-         <div className="fixed z-30 flex h-[80px] w-full items-center justify-center bg-white font-sans font-bold text-gray-700">
+         <div className="fixed z-40 flex h-[80px] w-full items-center justify-center bg-white font-sans font-bold text-gray-700">
             <div className="ml-6 flex h-[80px] w-1/2 justify-start text-sm">
                <div className="mx-8 flex items-center justify-center">
                   <Image src={'/myntra-icon.svg'} width={53} height={36} alt="icon" />

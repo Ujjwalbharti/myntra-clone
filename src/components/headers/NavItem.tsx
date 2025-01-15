@@ -10,7 +10,7 @@ interface NavItemProps {
 
 const NavItem: React.FC<NavItemProps> = ({ type }) => {
    const { updateDrawer, getDrawer } = useGlobalContext();
-//    const categories = getAllCategories(type);
+   //    const categories = getAllCategories(type);
 
    const handleMouseEnter = React.useCallback(() => {
       updateDrawer(type);
@@ -28,9 +28,9 @@ const NavItem: React.FC<NavItemProps> = ({ type }) => {
       >
          <span className="block">{type}</span>
          <div
-            className={`fixed left-[117px] top-[78px] z-30 h-[55%] w-[70%] bg-white transition-opacity duration-500 ease-in-out ${
+            className={`fixed left-[117px] top-[78px] h-[55%] w-[70%] bg-white transition-opacity duration-500 ease-in-out ${
                getDrawer() === type
-                  ? 'pointer-events-auto opacity-100'
+                  ? 'pointer-events-auto z-40 opacity-100'
                   : 'pointer-events-none opacity-0'
             }`}
          >
