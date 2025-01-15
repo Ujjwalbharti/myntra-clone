@@ -1,5 +1,6 @@
 import type { Metadata, Viewport } from "next";
 import "./globals.css";
+import { GlobalContextProvider } from "@/context/GlobalContext";
 
 export const viewport: Viewport = { width: "device-width", initialScale: 1, userScalable: false }
 
@@ -22,7 +23,9 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body>
-        {children}
+        <GlobalContextProvider>
+          {children}
+        </GlobalContextProvider>
       </body>
     </html>
   );
