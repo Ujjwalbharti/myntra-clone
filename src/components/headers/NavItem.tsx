@@ -8,14 +8,14 @@ interface NavItemProps {
 }
 
 const NavItem: React.FC<NavItemProps> = ({ type }) => {
-    const { updateDrawer } = useGlobalContext();
+    const { updateDrawer, getDrawer } = useGlobalContext();
 
     const handleMouseEnter = React.useCallback(() => {
-        updateDrawer(true);
+        updateDrawer(type);
     }, [updateDrawer]);
 
     const handleMouseLeave = React.useCallback(() => {
-        updateDrawer(false);
+        updateDrawer("");
     }, [updateDrawer]);
 
     return (
@@ -26,7 +26,7 @@ const NavItem: React.FC<NavItemProps> = ({ type }) => {
         >
             <span className="block">{type}</span>
             <div
-                className="opacity-0 fixed h-[55%] w-[70%] left-[117px] top-[78px] z-30 bg-white group-hover:opacity-100 transition-all duration-500 ease-in-out"
+                className={`fixed h-[55%] w-[70%] left-[117px] top-[78px] z-30 bg-white transition-all duration-500 ease-in-out ${getDrawer() === type ? 'block' : 'hidden'}`}
             >
                 {type}
             </div>

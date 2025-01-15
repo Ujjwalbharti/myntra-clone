@@ -21,7 +21,7 @@ export default function Home() {
     <div className={`w-full h-screen bg-gray-50`}>
       <SiteHeader />
       <Banner imageList={imageList} />
-      <div className={`w-full h-screen ${context.getDrawer() ? 'opacity-25' : 'opacity-0'} bg-black absolute top-0 z-20`}></div>
+      <div className={`w-full h-screen ${context.getDrawer() !== "" ? 'opacity-25' : 'opacity-0'} bg-black absolute top-0 z-20`}></div>
     </div>
   );
 }
