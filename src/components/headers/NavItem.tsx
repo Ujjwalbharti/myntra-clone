@@ -20,13 +20,14 @@ const NavItem: React.FC<NavItemProps> = ({ type }) => {
 
     return (
         <div
-            className="flex items-center h-full relative group border-b-4 border-white group-hover:border-black cursor-pointer"
+            className={`relative flex items-center h-full border-b-4  cursor-pointer group ${getDrawer() === type ? 'border-black' : 'border-white'}`}
             onMouseEnter={handleMouseEnter}
             onMouseLeave={handleMouseLeave}
         >
             <span className="block">{type}</span>
             <div
-                className={`fixed h-[55%] w-[70%] left-[117px] top-[78px] z-30 bg-white transition-all duration-500 ease-in-out ${getDrawer() === type ? 'block' : 'hidden'}`}
+                className={`fixed h-[55%] w-[70%] left-[117px] top-[78px] z-30 bg-white transition-opacity duration-500 ease-in-out ${getDrawer() === type ? 'opacity-100 pointer-events-auto' : 'opacity-0 pointer-events-none'
+                    }`}
             >
                 {type}
             </div>

@@ -8,10 +8,10 @@ const SiteHeader = () => {
         <>
             <div className='h-[80px] flex items-center justify-center w-full text-gray-700 font-sans font-bold z-30 fixed bg-white'>
                 <div className='h-[80px] flex w-1/2 justify-start text-sm ml-6'>
-                    <div className='mx-8 flex items-center justify-center'>
+                    <div className='flex items-center justify-center mx-8'>
                         <Image src={"/myntra-icon.svg"} width={53} height={36} alt='icon' />
                     </div>
-                    <div className='flex items-center justify-center mr-4 uppercase gap-12 ml-4'>
+                    <div className='flex items-center justify-center ml-4 mr-4 uppercase gap-12'>
                         <NavItem type='Men' />
                         <NavItem type='Women' />
                         <NavItem type='Kids' />
