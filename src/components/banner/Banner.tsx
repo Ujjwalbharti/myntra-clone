@@ -17,9 +17,9 @@ const Banner: React.FC<BannerProps> = ({ imageList }) => {
          <Image
             src={`/banner/${imageList[index]}`}
             width={400}
-            height={400}
+            height={250}
             alt="banner"
-            className="w-full"
+            className="h-full w-full"
          />
       );
    }
@@ -61,7 +61,7 @@ const Banner: React.FC<BannerProps> = ({ imageList }) => {
    }
 
    return (
-      <div className="relative my-6 transition">
+      <div className="relative my-6 h-[350px] transition-transform duration-500 ease-in-out">
          {getImage(activeBanner)}
          <div className="absolute bottom-4 left-[43%] z-30 flex">
             {imageList.map((_, index) => getRoundCircle(activeBanner, index))}

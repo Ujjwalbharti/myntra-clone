@@ -2,6 +2,7 @@
 
 import Banner from '@/components/banner/Banner';
 import SiteHeader from '@/components/headers/SiteHeader';
+import StickyBar from '@/components/sticky/StickyBar';
 import { useGlobalContext } from '@/context/GlobalContext';
 
 const imageList = [
@@ -23,6 +24,7 @@ export default function Home() {
          <div
             className={`h-screen w-full ${context.getDrawer() !== '' ? 'opacity-25' : 'opacity-0'} absolute top-0 z-20 bg-black`}
          ></div>
+         <StickyBar />
       </div>
    );
 }
