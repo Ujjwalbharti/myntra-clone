@@ -4,7 +4,7 @@ import Image from 'next/image';
 import { useState } from 'react';
 import { FaChevronRight } from 'react-icons/fa6';
 
-const StickyBar = () => {
+const StickySideBar = () => {
    const [hide, setHide] = useState(true);
    function updateHide(flag: boolean) {
       setHide(!flag);
@@ -58,4 +58,4 @@ const StickyBar = () => {
    );
 };
 
-export default StickyBar;
+export default StickySideBar;
