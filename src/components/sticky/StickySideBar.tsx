@@ -21,7 +21,7 @@ const StickySideBar = () => {
 
    return (
       <div
-         className={`fixed bottom-28 right-0 z-50 flex h-[300px] ${hide ? `w-[50px]` : `w-[600px]`} items-center justify-start`}
+         className={`fixed bottom-28 right-0 z-30 flex h-[300px] ${hide ? `w-[50px]` : `w-[600px]`} items-center justify-start`}
       >
          <div
             className={`flex h-full flex-col items-center justify-evenly bg-gray-500 font-sans text-2xl font-extrabold text-white`}
