@@ -1,6 +1,7 @@
 import type { Metadata, Viewport } from 'next';
 import './globals.css';
 import { GlobalContextProvider } from '@/context/GlobalContext';
+import { SpeedInsights } from '@vercel/speed-insights/next';
 
 export const viewport: Viewport = {
    width: 'device-width',
@@ -28,6 +29,7 @@ export default function RootLayout({
       <html lang="en">
          <body>
             <GlobalContextProvider>{children}</GlobalContextProvider>
+            <SpeedInsights />
          </body>
       </html>
    );
