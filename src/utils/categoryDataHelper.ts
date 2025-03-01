@@ -39,7 +39,7 @@ const getSubcategoriesByOrder = (mainCategory: string, index: number): CategoryD
    const categories = getAllCategories(mainCategory);
    const columnItems : CategoryData[] = []
    categories.forEach((categoryName) =>{
-      var subCategory = getSubcategories(mainCategory, categoryName);
+      const subCategory = getSubcategories(mainCategory, categoryName);
       if(subCategory.order === index){
          subCategory.category = categoryName;
          columnItems.push(subCategory);
