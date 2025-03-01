@@ -27,7 +27,7 @@ const NavItem: React.FC<NavItemProps> = ({ type }) => {
       >
          <span className="block">{type}</span>
          <div
-            className={`fixed left-[117px] top-[78px] h-[55%] w-[70%] bg-white transition-opacity duration-500 ease-in-out ${
+            className={`fixed left-[117px] top-[78px] h-[55%] w-[70%] bg-white transition-opacity duration-500 ease-in-out px-8 ${
                getDrawer() === type
                   ? 'pointer-events-auto z-40 opacity-100'
                   : 'pointer-events-none opacity-0'
