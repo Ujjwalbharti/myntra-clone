@@ -20,7 +20,7 @@ const NavItemData: React.FC<NavItemData> = ({ type }) => {
                </p>
             ))}
             <div
-               className={`${subCategory.items.length === 0 || index == totalLength - 1 ? 'hidden' : ''} mt-1 w-[80%] border-t-[1px] border-gray-200`}
+               className={`${subCategory.items.length === 0 || index == totalLength - 1 ? 'hidden' : ''} mt-2 w-[80%] border-t-[1px] border-gray-200`}
             ></div>
          </div>
       );
