@@ -11,7 +11,7 @@ const SiteHeader = () => {
                <div className="mx-8 flex items-center justify-center">
                   <Image src={'/myntra-icon.svg'} width={53} height={36} alt="icon" />
                </div>
-               <div className="ml-4 mr-4 flex items-center justify-center gap-12 uppercase">
+               <div className="ml-4 mr-4 flex items-center justify-center uppercase">
                   <NavItem type="Men" />
                   <NavItem type="Women" />
                   <NavItem type="Kids" />

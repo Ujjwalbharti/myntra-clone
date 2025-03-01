@@ -23,7 +23,7 @@ const NavItem: React.FC<NavItemProps> = ({ type }) => {
 
    return (
       <div
-         className={`group relative flex h-full cursor-pointer items-center border-b-4 ${getDrawer() === type ? getBorderColorBy(type) : 'border-white'}`}
+         className={`group relative flex h-full cursor-pointer items-center border-b-4 ${getDrawer() === type ? getBorderColorBy(type) : 'border-white'} px-8`}
          onMouseEnter={handleMouseEnter}
          onMouseLeave={handleMouseLeave}
       >
