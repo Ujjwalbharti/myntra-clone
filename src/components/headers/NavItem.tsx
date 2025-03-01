@@ -1,8 +1,9 @@
 'use client';
 
 import { useGlobalContext } from '@/context/GlobalContext';
-import { mapNavItemToKey } from '@/utils/categoryDataHelper';
+import { getAllCategories, mapNavItemToKey } from '@/utils/categoryDataHelper';
 import React from 'react';
+import NavItemData from './NavItemData';
 
 interface NavItemProps {
    type: string;
@@ -10,7 +11,7 @@ interface NavItemProps {
 
 const NavItem: React.FC<NavItemProps> = ({ type }) => {
    const { updateDrawer, getDrawer } = useGlobalContext();
-   //    const categories = getAllCategories(type);
+   const categories = getAllCategories(type);
 
    const handleMouseEnter = React.useCallback(() => {
       updateDrawer(type);
@@ -34,7 +35,7 @@ const NavItem: React.FC<NavItemProps> = ({ type }) => {
                   : 'pointer-events-none opacity-0'
             }`}
          >
-            {type}
+            <NavItemData type={type} />
          </div>
       </div>
    );

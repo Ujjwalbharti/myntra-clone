@@ -1,328 +1,570 @@
 {
    "categories": {
       "men": {
-         "Topwear": [
-            "T-Shirts",
-            "Casual Shirts",
-            "Formal Shirts",
-            "Sweatshirts",
-            "Sweaters",
-            "Jackets",
-            "Blazers & Coats",
-            "Suits",
-            "Rain Jackets"
-         ],
-         "Indian & Festive Wear": ["Kurtas & Kurta Sets", "Sherwanis", "Nehru Jackets", "Dhotis"],
-         "Bottomwear": [
-            "Jeans",
-            "Casual Trousers",
-            "Formal Trousers",
-            "Shorts",
-            "Track Pants & Joggers"
-         ],
-         "Innerwear & Sleepwear": [
-            "Briefs & Trunks",
-            "Boxers",
-            "Vests",
-            "Sleepwear & Loungewear",
-            "Thermals"
-         ],
-         "Plus Size": [],
-         "Footwear": [
-            "Casual Shoes",
-            "Sports Shoes",
-            "Formal Shoes",
-            "Sneakers",
-            "Sandals & Floaters",
-            "Flip Flops",
-            "Socks"
-         ],
-         "Sports & Active Wear": [
-            "Sports Shoes",
-            "Sports Sandals",
-            "Active T-Shirts",
-            "Track Pants & Shorts",
-            "Tracksuits",
-            "Jackets & Sweatshirts",
-            "Sports Accessories",
-            "Swimwear"
-         ],
-         "Gadgets": ["Smart Wearables", "Fitness Gadgets", "Headphones", "Speakers"],
-         "Fashion Accessories": [
-            "Wallets",
-            "Belts",
-            "Perfumes & Body Mists",
-            "Trimmers",
-            "Deodorants",
-            "Ties, Cufflinks & Pocket Squares",
-            "Accessory Gift Sets",
-            "Caps & Hats",
-            "Mufflers, Scarves & Gloves",
-            "Phone Cases",
-            "Rings & Wristwear",
-            "Helmets"
-         ],
-         "Bags & Backpacks": [],
-         "Luggages & Trolleys": []
+         "Topwear": {
+            "items": [
+               "T-Shirts",
+               "Casual Shirts",
+               "Formal Shirts",
+               "Sweatshirts",
+               "Sweaters",
+               "Jackets",
+               "Blazers & Coats",
+               "Suits",
+               "Rain Jackets"
+            ],
+            "order": 1,
+            "category": ""
+         },
+         "Indian & Festive Wear": {
+            "items": ["Kurtas & Kurta Sets", "Sherwanis", "Nehru Jackets", "Dhotis"],
+            "order": 1,
+            "category": ""
+         },
+         "Bottomwear": {
+            "items": [
+               "Jeans",
+               "Casual Trousers",
+               "Formal Trousers",
+               "Shorts",
+               "Track Pants & Joggers"
+            ],
+            "order": 2,
+            "category": ""
+         },
+         "Innerwear & Sleepwear": {
+            "items": ["Briefs & Trunks", "Boxers", "Vests", "Sleepwear & Loungewear", "Thermals"],
+            "order": 2,
+            "category": ""
+         },
+         "Plus Size": {
+            "items": [],
+            "order": 2,
+            "category": ""
+         },
+         "Footwear": {
+            "items": [
+               "Casual Shoes",
+               "Sports Shoes",
+               "Formal Shoes",
+               "Sneakers",
+               "Sandals & Floaters",
+               "Flip Flops",
+               "Socks"
+            ],
+            "order": 3,
+            "category": ""
+         },
+         "Personal Care & Grooming": {
+            "items": [],
+            "order": 3,
+            "category": ""
+         },
+         "Sunglasses & Frames": {
+            "items": [],
+            "order": 3,
+            "category": ""
+         },
+         "Watches": {
+            "items": [],
+            "order": 3,
+            "category": ""
+         },
+         "Sports & Active Wear": {
+            "items": [
+               "Sports Shoes",
+               "Sports Sandals",
+               "Active T-Shirts",
+               "Track Pants & Shorts",
+               "Tracksuits",
+               "Jackets & Sweatshirts",
+               "Sports Accessories",
+               "Swimwear"
+            ],
+            "order": 4,
+            "category": ""
+         },
+         "Gadgets": {
+            "items": ["Smart Wearables", "Fitness Gadgets", "Headphones", "Speakers"],
+            "order": 4,
+            "category": ""
+         },
+         "Fashion Accessories": {
+            "items": [
+               "Wallets",
+               "Belts",
+               "Perfumes & Body Mists",
+               "Trimmers",
+               "Deodorants",
+               "Ties, Cufflinks & Pocket Squares",
+               "Accessory Gift Sets",
+               "Caps & Hats",
+               "Mufflers, Scarves & Gloves",
+               "Phone Cases",
+               "Rings & Wristwear",
+               "Helmets"
+            ],
+            "order": 5,
+            "category": ""
+         },
+         "Bags & Backpacks": {
+            "items": [],
+            "order": 5,
+            "category": ""
+         },
+         "Luggages & Trolleys": {
+            "items": [],
+            "order": 5,
+            "category": ""
+         }
       },
       "women": {
-         "Indian & Fusion Wear": [
-            "Kurtas & Suits",
-            "Kurtis, Tunics & Tops",
-            "Sarees",
-            "Ethnic Wear",
-            "Leggings, Salwars & Churidars",
-            "Skirts & Palazzos",
-            "Dress Materials",
-            "Lehenga Cholis",
-            "Dupattas & Shawls",
-            "Jackets"
-         ],
-         "Western Wear": [
-            "Dresses",
-            "Tops",
-            "T-Shirts",
-            "Jeans",
-            "Trousers & Capris",
-            "Shorts & Skirts",
-            "Co-ords",
-            "Playsuits",
-            "Jumpsuits",
-            "Shrugs",
-            "Sweaters & Sweatshirts",
-            "Jackets & Coats",
-            "Blazers & Waistcoats"
-         ],
-         "Maternity": [],
-         "Sunglasses & Frames": [],
-         "Footwear": ["Flats", "Casual Shoes", "Heels", "Boots", "Sports Shoes & Floaters"],
-         "Sports & Active Wear": ["Clothing", "Footwear", "Sports Accessories", "Sports Equipment"],
-         "Lingerie & Sleepwear": [
-            "Bra",
-            "Briefs",
-            "Shapewear",
-            "Sleepwear & Loungewear",
-            "Swimwear",
-            "Camisoles & Thermals"
-         ],
-         "Beauty & Personal Care": [
-            "Makeup",
-            "Skincare",
-            "Premium Beauty",
-            "Lipsticks",
-            "Fragrances"
-         ],
-         "Gadgets": ["Smart Wearables", "Fitness Gadgets", "Headphones", "Speakers"],
-         "Jewellery": ["Fashion Jewellery", "Fine Jewellery", "Earrings"],
-         "Backpacks": [],
-         "Handbags, Bags & Wallets": [],
-         "Luggages & Trolleys": []
+         "Indian & Fusion Wear": {
+            "items": [
+               "Kurtas & Suits",
+               "Kurtis, Tunics & Tops",
+               "Sarees",
+               "Ethnic Wear",
+               "Leggings, Salwars & Churidars",
+               "Skirts & Palazzos",
+               "Dress Materials",
+               "Lehenga Cholis",
+               "Dupattas & Shawls",
+               "Jackets"
+            ],
+            "order": 1,
+            "category": ""
+         },
+         "Belt, Scraves & More": {
+            "items": [],
+            "order": 1,
+            "category": ""
+         },
+         "Watches & Wearables": {
+            "items": [],
+            "order": 1,
+            "category": ""
+         },
+         "Western Wear": {
+            "items": [
+               "Dresses",
+               "Tops",
+               "T-Shirts",
+               "Jeans",
+               "Trousers & Capris",
+               "Shorts & Skirts",
+               "Co-ords",
+               "Playsuits",
+               "Jumpsuits",
+               "Shrugs",
+               "Sweaters & Sweatshirts",
+               "Jackets & Coats",
+               "Blazers & Waistcoats"
+            ],
+            "order": 2,
+            "category": ""
+         },
+         "Plus size": {
+            "items": [],
+            "order": 2,
+            "category": ""
+         },
+         "Maternity": {
+            "items": [],
+            "order": 3,
+            "category": ""
+         },
+         "Sunglasses & Frames": {
+            "items": [],
+            "order": 3,
+            "category": ""
+         },
+         "Footwear": {
+            "items": ["Flats", "Casual Shoes", "Heels", "Boots", "Sports Shoes & Floaters"],
+            "order": 3,
+            "category": ""
+         },
+         "Sports & Active Wear": {
+            "items": ["Clothing", "Footwear", "Sports Accessories", "Sports Equipment"],
+            "order": 3,
+            "category": ""
+         },
+         "Lingerie & Sleepwear": {
+            "items": [
+               "Bra",
+               "Briefs",
+               "Shapewear",
+               "Sleepwear & Loungewear",
+               "Swimwear",
+               "Camisoles & Thermals"
+            ],
+            "order": 4,
+            "category": ""
+         },
+         "Beauty & Personal Care": {
+            "items": ["Makeup", "Skincare", "Premium Beauty", "Lipsticks", "Fragrances"],
+            "order": 4,
+            "category": ""
+         },
+         "Gadgets": {
+            "items": ["Smart Wearables", "Fitness Gadgets", "Headphones", "Speakers"],
+            "order": 5,
+            "category": ""
+         },
+         "Jewellery": {
+            "items": ["Fashion Jewellery", "Fine Jewellery", "Earrings"],
+            "order": 5,
+            "category": ""
+         },
+         "Backpacks": {
+            "items": [],
+            "order": 5,
+            "category": ""
+         },
+         "Handbags, Bags & Wallets": {
+            "items": [],
+            "order": 5,
+            "category": ""
+         },
+         "Luggages & Trolleys": {
+            "items": [],
+            "order": 5,
+            "category": ""
+         }
       },
       "kids": {
-         "Boys Clothing": [
-            "T-Shirts",
-            "Shirts",
-            "Shorts",
-            "Jeans",
-            "Trousers",
-            "Clothing Sets",
-            "Ethnic Wear",
-            "Track Pants & Pyjamas",
-            "Jacket, Sweater & Sweatshirts",
-            "Party Wear",
-            "Innerwear & Thermals",
-            "Nightwear & Loungewear",
-            "Value Packs"
-         ],
-         "Girls Clothing": [
-            "Dresses",
-            "Tops",
-            "T-Shirts",
-            "Clothing Sets",
-            "Lehenga Choli",
-            "Kurta Sets",
-            "Party Wear",
-            "Dungarees & Jumpsuits",
-            "Skirts & Shorts",
-            "Tights & Leggings",
-            "Jeans, Trousers & Capris",
-            "Jacket, Sweater & Sweatshirts",
-            "Innerwear & Thermals",
-            "Nightwear & Loungewear",
-            "Value Packs"
-         ],
-         "Footwear": [
-            "Casual Shoes",
-            "Flipflops",
-            "Sports Shoes",
-            "Flats",
-            "Sandals",
-            "Heels",
-            "School Shoes",
-            "Socks"
-         ],
-         "Infants": [
-            "Bodysuits",
-            "Rompers & Sleepsuits",
-            "Clothing Sets",
-            "T-Shirts & Tops",
-            "Dresses",
-            "Bottom Wear",
-            "Winter Wear",
-            "Innerwear & Sleepwear",
-            "Infant Care"
-         ],
-         "Toys & Games": [
-            "Learning & Development",
-            "Activity Toys",
-            "Soft Toys",
-            "Action Figure / Play Set"
-         ],
-         "Kids Accessories": [
-            "Bags & Backpacks",
-            "Watches",
-            "Jewellery & Hair Accessories",
-            "Sunglasses",
-            "Masks & Protective Gears",
-            "Caps & Hats"
-         ],
-         "Home & Bath": [],
-         "Personal Care": [],
-         "Brands": [
-            "H&M",
-            "Max Kids",
-            "Pantaloons",
-            "United Colors of Benetton Kids",
-            "YK",
-            "U.S. Polo Assn. Kids",
-            "Mothercare",
-            "HRX"
-         ]
+         "Boys Clothing": {
+            "items": [
+               "T-Shirts",
+               "Shirts",
+               "Shorts",
+               "Jeans",
+               "Trousers",
+               "Clothing Sets",
+               "Ethnic Wear",
+               "Track Pants & Pyjamas",
+               "Jacket, Sweater & Sweatshirts",
+               "Party Wear",
+               "Innerwear & Thermals",
+               "Nightwear & Loungewear",
+               "Value Packs"
+            ],
+            "order": 1,
+            "category": ""
+         },
+         "Girls Clothing": {
+            "items": [
+               "Dresses",
+               "Tops",
+               "T-Shirts",
+               "Clothing Sets",
+               "Lehenga Choli",
+               "Kurta Sets",
+               "Party Wear",
+               "Dungarees & Jumpsuits",
+               "Skirts & Shorts",
+               "Tights & Leggings",
+               "Jeans, Trousers & Capris",
+               "Jacket, Sweater & Sweatshirts",
+               "Innerwear & Thermals",
+               "Nightwear & Loungewear",
+               "Value Packs"
+            ],
+            "order": 2,
+            "category": ""
+         },
+         "Footwear": {
+            "items": [
+               "Casual Shoes",
+               "Flipflops",
+               "Sports Shoes",
+               "Flats",
+               "Sandals",
+               "Heels",
+               "School Shoes",
+               "Socks"
+            ],
+            "order": 3,
+            "category": ""
+         },
+         "Toys & Games": {
+            "items": [
+               "Learning & Development",
+               "Activity Toys",
+               "Soft Toys",
+               "Action Figure / Play Set"
+            ],
+            "order": 3,
+            "category": ""
+         },
+         "Infants": {
+            "items": [
+               "Bodysuits",
+               "Rompers & Sleepsuits",
+               "Clothing Sets",
+               "T-Shirts & Tops",
+               "Dresses",
+               "Bottom Wear",
+               "Winter Wear",
+               "Innerwear & Sleepwear",
+               "Infant Care"
+            ],
+            "order": 4,
+            "category": ""
+         },
+         "Home & Bath": {
+            "items": [],
+            "order": 4,
+            "category": ""
+         },
+         "Personal Care": {
+            "items": [],
+            "order": 4,
+            "category": ""
+         },
+         "Kids Accessories": {
+            "items": [
+               "Bags & Backpacks",
+               "Watches",
+               "Jewellery & Hair Accessories",
+               "Sunglasses",
+               "Masks & Protective Gears",
+               "Caps & Hats"
+            ],
+            "order": 5,
+            "category": ""
+         },
+         "Brands": {
+            "items": [
+               "H&M",
+               "Max Kids",
+               "Pantaloons",
+               "United Colors of Benetton Kids",
+               "YK",
+               "U.S. Polo Assn. Kids",
+               "Mothercare",
+               "HRX"
+            ],
+            "order": 5,
+            "category": ""
+         }
       },
       "home_and_living": {
-         "Bed Linen & Furnishing": [
-            "Bed Runners",
-            "Mattress Protectors",
-            "Bedsheets",
-            "Bedding Sets",
-            "Blankets, Quilts & Dohars",
-            "Pillows & Pillow Covers",
-            "Bed Covers",
-            "Diwan Sets",
-            "Chair Pads & Covers",
-            "Sofa Covers"
-         ],
-         "Flooring": ["Floor Runners", "Carpets", "Floor Mats & Dhurries", "Door Mats"],
-         "Bath": [
-            "Bath Towels",
-            "Hand & Face Towels",
-            "Beach Towels",
-            "Towels Set",
-            "Bath Rugs",
-            "Bath Robes",
-            "Bathroom Accessories",
-            "Shower Curtains"
-         ],
-         "Lamps & Lighting": [
-            "Floor Lamps",
-            "Ceiling Lamps",
-            "Table Lamps",
-            "Wall Lamps",
-            "Outdoor Lamps",
-            "String Lights"
-         ],
-         "Home Décor": [
-            "Plants & Planters",
-            "Aromas & Candles",
-            "Clocks",
-            "Mirrors",
-            "Wall Décor",
-            "Festive Decor",
-            "Pooja Essentials",
-            "Wall Shelves",
-            "Fountains",
-            "Showpieces & Vases",
-            "Ottoman"
-         ],
-         "Furniture": [],
-         "Home Gift Sets": [],
-         "Kitchen & Table": [
-            "Table Runners",
-            "Dinnerware & Serveware",
-            "Cups and Mugs",
-            "Bakeware & Cookware",
-            "Kitchen Storage & Tools",
-            "Bar & Drinkware",
-            "Table Covers & Furnishings"
-         ],
-         "Cushions & Cushion Covers": [],
-         "Curtains": [],
-         "Storage": ["Bins", "Hangers", "Organisers", "Hooks & Holders", "Laundry Bags"]
+         "Bed Linen & Furnishing": {
+            "items": [
+               "Bed Runners",
+               "Mattress Protectors",
+               "Bedsheets",
+               "Bedding Sets",
+               "Blankets, Quilts & Dohars",
+               "Pillows & Pillow Covers",
+               "Bed Covers",
+               "Diwan Sets",
+               "Chair Pads & Covers",
+               "Sofa Covers"
+            ],
+            "order": 1,
+            "category": ""
+         },
+         "Flooring": {
+            "items": ["Floor Runners", "Carpets", "Floor Mats & Dhurries", "Door Mats"],
+            "order": 1,
+            "category": ""
+         },
+         "Bath": {
+            "items": [
+               "Bath Towels",
+               "Hand & Face Towels",
+               "Beach Towels",
+               "Towels Set",
+               "Bath Rugs",
+               "Bath Robes",
+               "Bathroom Accessories",
+               "Shower Curtains"
+            ],
+            "order": 2,
+            "category": ""
+         },
+         "Lamps & Lighting": {
+            "items": [
+               "Floor Lamps",
+               "Ceiling Lamps",
+               "Table Lamps",
+               "Wall Lamps",
+               "Outdoor Lamps",
+               "String Lights"
+            ],
+            "order": 2,
+            "category": ""
+         },
+         "Home Décor": {
+            "items": [
+               "Plants & Planters",
+               "Aromas & Candles",
+               "Clocks",
+               "Mirrors",
+               "Wall Décor",
+               "Festive Decor",
+               "Pooja Essentials",
+               "Wall Shelves",
+               "Fountains",
+               "Showpieces & Vases",
+               "Ottoman"
+            ],
+            "order": 3,
+            "category": ""
+         },
+         "Cushions & Cushion Covers": {
+            "items": [],
+            "order": 3,
+            "category": ""
+         },
+         "Curtains": {
+            "items": [],
+            "order": 3,
+            "category": ""
+         },
+         "Furniture": {
+            "items": [],
+            "order": 4,
+            "category": ""
+         },
+         "Home Gift Sets": {
+            "items": [],
+            "order": 4,
+            "category": ""
+         },
+         "Kitchen & Table": {
+            "items": [
+               "Table Runners",
+               "Dinnerware & Serveware",
+               "Cups and Mugs",
+               "Bakeware & Cookware",
+               "Kitchen Storage & Tools",
+               "Bar & Drinkware",
+               "Table Covers & Furnishings"
+            ],
+            "order": 4,
+            "category": ""
+         },
+         "Storage": {
+            "items": ["Bins", "Hangers", "Organisers", "Hooks & Holders", "Laundry Bags"],
+            "order": 5,
+            "category": ""
+         }
       },
       "beauty": {
-         "Makeup": [
-            "Lipstick",
-            "Lip Gloss",
-            "Lip Liner",
-            "Mascara",
-            "Eyeliner",
-            "Kajal",
-            "Eyeshadow",
-            "Foundation",
-            "Primer",
-            "Concealer",
-            "Compact",
-            "Nail Polish"
-         ],
-         "Skincare, Bath & Body": [
-            "Face Moisturiser",
-            "Cleanser",
-            "Masks & Peel",
-            "Sunscreen",
-            "Serum",
-            "Face Wash",
-            "Eye Cream",
-            "Lip Balm",
-            "Body Lotion",
-            "Body Wash",
-            "Body Scrub",
-            "Hand Cream"
-         ],
-         "Baby Care": [],
-         "Masks": [],
-         "Haircare": [
-            "Shampoo",
-            "Conditioner",
-            "Hair Cream",
-            "Hair Oil",
-            "Hair Gel",
-            "Hair Color",
-            "Hair Serum",
-            "Hair Accessory"
-         ],
-         "Fragrances": ["Perfume", "Deodorant", "Body Mist"],
-         "Appliances": ["Hair Straightener", "Hair Dryer", "Epilator"],
-         "Men's Grooming": ["Trimmers", "Beard Oil", "Hair Wax"],
-         "Beauty Gift & Makeup Set": ["Beauty Gift", "Makeup Kit"],
-         "Premium Beauty": [],
-         "Wellness & Hygiene": [],
-         "Top Brands": [
-            "Lakme",
-            "Maybelline",
-            "LOreal",
-            "Philips",
-            "Bath & Body Works",
-            "THE BODY SHOP",
-            "Biotique",
-            "Mamaearth",
-            "MCaffeine",
-            "Nivea",
-            "Lotus Herbals",
-            "LOreal Professionnel",
-            "KAMA AYURVEDA",
-            "M.A.C",
-            "Forest Essentials"
-         ]
+         "Makeup": {
+            "items": [
+               "Lipstick",
+               "Lip Gloss",
+               "Lip Liner",
+               "Mascara",
+               "Eyeliner",
+               "Kajal",
+               "Eyeshadow",
+               "Foundation",
+               "Primer",
+               "Concealer",
+               "Compact",
+               "Nail Polish"
+            ],
+            "order": 1,
+            "category": ""
+         },
+         "Skincare, Bath & Body": {
+            "items": [
+               "Face Moisturiser",
+               "Cleanser",
+               "Masks & Peel",
+               "Sunscreen",
+               "Serum",
+               "Face Wash",
+               "Eye Cream",
+               "Lip Balm",
+               "Body Lotion",
+               "Body Wash",
+               "Body Scrub",
+               "Hand Cream"
+            ],
+            "order": 2,
+            "category": ""
+         },
+         "Baby Care": {
+            "items": [],
+            "order": 2,
+            "category": ""
+         },
+         "Masks": {
+            "items": [],
+            "order": 2,
+            "category": ""
+         },
+         "Haircare": {
+            "items": [
+               "Shampoo",
+               "Conditioner",
+               "Hair Cream",
+               "Hair Oil",
+               "Hair Gel",
+               "Hair Color",
+               "Hair Serum",
+               "Hair Accessory"
+            ],
+            "order": 3,
+            "category": ""
+         },
+         "Fragrances": {
+            "items": ["Perfume", "Deodorant", "Body Mist"],
+            "order": 3,
+            "category": ""
+         },
+         "Appliances": {
+            "items": ["Hair Straightener", "Hair Dryer", "Epilator"],
+            "order": 4,
+            "category": ""
+         },
+         "Men's Grooming": {
+            "items": ["Trimmers", "Beard Oil", "Hair Wax"],
+            "order": 4,
+            "category": ""
+         },
+         "Beauty Gift & Makeup Set": {
+            "items": ["Beauty Gift", "Makeup Kit"],
+            "order": 4,
+            "category": ""
+         },
+         "Premium Beauty": {
+            "items": [],
+            "order": 4,
+            "category": ""
+         },
+         "Wellness & Hygiene": {
+            "items": [],
+            "order": 4,
+            "category": ""
+         },
+         "Top Brands": {
+            "items": [
+               "Lakme",
+               "Maybelline",
+               "LOreal",
+               "Philips",
+               "Bath & Body Works",
+               "THE BODY SHOP",
+               "Biotique",
+               "Mamaearth",
+               "MCaffeine",
+               "Nivea",
+               "Lotus Herbals",
+               "LOreal Professionnel",
+               "KAMA AYURVEDA",
+               "M.A.C",
+               "Forest Essentials"
+            ],
+            "order": 5,
+            "category": ""
+         }
       }
    }
 }

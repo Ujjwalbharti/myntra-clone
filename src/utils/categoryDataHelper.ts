@@ -1,12 +1,18 @@
-import categoryData from '@/data/categoryData.json';
+import jsonData from '@/data/categoryData.json';
+
+export type CategoryData = {
+   items : string[],
+   order : number,
+   category: string
+}
 
 type CategoriesData = {
    [mainCategory: string]: {
-      [categoryName: string]: string[];
+      [categoryName: string]: CategoryData;
    };
 };
 
-const data = categoryData['categories'] as CategoriesData;
+const data = jsonData['categories'] as CategoriesData;
 
 const getAllCategories = (mainCategory: string): string[] => {
    mainCategory = mapNavItemToKey(mainCategory);
@@ -16,7 +22,7 @@ const getAllCategories = (mainCategory: string): string[] => {
    return Object.keys(data[mainCategory]);
 };
 
-const getSubcategories = (mainCategory: string, categoryName: string): string[] => {
+const getSubcategories = (mainCategory: string, categoryName: string): CategoryData => {
    mainCategory = mapNavItemToKey(mainCategory);
    if (!data[mainCategory]) {
       throw new Error(`Main category "${mainCategory}" does not exist.`);
@@ -26,6 +32,20 @@ const getSubcategories = (mainCategory: string, categoryName: string): string[] 
       throw new Error(`Category "${categoryName}" does not exist inside "${mainCategory}".`);
    }
    return category[categoryName];
+};
+
+const getSubcategoriesByOrder = (mainCategory: string, index: number): CategoryData[] => {
+   mainCategory = mapNavItemToKey(mainCategory);
+   const categories = getAllCategories(mainCategory);
+   const columnItems : CategoryData[] = []
+   categories.forEach((categoryName) =>{
+      var subCategory = getSubcategories(mainCategory, categoryName);
+      if(subCategory.order === index){
+         subCategory.category = categoryName;
+         columnItems.push(subCategory);
+      }
+   });
+   return columnItems;
 };
 
 const mapNavItemToKey = (type: string): string => {
@@ -41,8 +61,8 @@ const mapNavItemToKey = (type: string): string => {
       case 'beauty':
          return 'beauty';
       default:
-         return '';
+         return type;
    }
 };
 
-export { getAllCategories, getSubcategories, mapNavItemToKey };
+export { getAllCategories, getSubcategories, mapNavItemToKey, getSubcategoriesByOrder };
