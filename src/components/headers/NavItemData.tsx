@@ -13,9 +13,9 @@ const NavItemData: React.FC<NavItemData> = ({ type }) => {
    ): React.ReactNode {
       return (
          <div key={index} className="mt-5 flex flex-col">
-            <p className={`mb-3 text-xs ${getTextColorBy(type)} font-bold`}>{subCategory.category}</p>
+            <p className={`mb-3 text-xs ${getTextColorBy(type)} font-bold hover:font-extrabold`}>{subCategory.category}</p>
             {subCategory.items.map((item, i) => (
-               <p key={i} className={`py-[2px] text-[11px] font-normal`}>
+               <p key={i} className={`py-[2px] text-[11px] font-normal hover:font-bold`}>
                   {item}
                </p>
             ))}
